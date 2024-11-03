@@ -1,12 +1,15 @@
+import Banner from "../Components/Banner";
+import Hero from "../Components/Hero";
 
 
 
 const Home = () => {
     
     return (
-        <div>
-            <h1>this is Home</h1>
-        </div>
+ <>
+ <Banner/>
+ <Hero/>
+ </>
     );
 };
 
