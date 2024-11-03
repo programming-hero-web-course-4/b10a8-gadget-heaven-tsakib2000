@@ -270,6 +270,24 @@
       ],
       "availability": true,
       "rating": 4.9
-    }
+    },
+      {
+        "product_id": "P017",
+        "product_title": "Microsoft Xbox Series X",
+        "product_image": "https://i.ibb.co.com/j8ywpHh/Xbox-Series-X-Console-a-5850.jpg",
+        "category": "Gaming Consoles",
+        "price": 499,
+        "description": "Experience next-gen gaming with the powerful Xbox Series X console.",
+        "specification": [
+          "12 teraflops of processing power",
+          "1TB custom SSD",
+          "4K UHD resolution at up to 120 FPS",
+          "Backward compatibility with Xbox One games",
+          "Xbox Game Pass compatible"
+        ],
+        "availability": true,
+        "rating": 4.8
+      }
+    
   ]
   
