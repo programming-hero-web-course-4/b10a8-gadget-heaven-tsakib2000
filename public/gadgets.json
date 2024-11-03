@@ -1,0 +1,258 @@
+[
+    {
+      "product_id": "P001",
+      "product_title": "Apple iPhone 15 Pro Max",
+      "product_image": "https://i.ibb.co.com/ByNr5Km/Apple-i-Phone-15-Pro-Max.jpg",
+      "category": "Smartphones",
+      "price": 1299,
+      "description": "Experience the ultimate smartphone with the iPhone 15 Pro Max.",
+      "specification": [
+        "6.7-inch Super Retina XDR display",
+        "A17 Bionic chip",
+        "Triple-camera system (48MP Main, 12MP Telephoto, 12MP Ultrawide)",
+        "LIDAR Scanner",
+        "Up to 2TB storage"
+      ],
+      "availability": true,
+      "rating": 4.8
+    },
+    {
+      "product_id": "P002",
+      "product_title": "Samsung Galaxy S23 Ultra",
+      "product_image": "https://i.ibb.co.com/Z1rzxNJ/Galaxy-S23-Ultra-Green-3380.jpg",
+      "category": "Smartphones",
+      "price": 1199,
+      "description": "Powerful performance with the latest Snapdragon processor.",
+      "specification": [
+        "6.8-inch QHD+ AMOLED display",
+        "Snapdragon 8 Gen 2",
+        "200MP quad-camera system",
+        "S Pen support",
+        "1TB storage"
+      ],
+      "availability": true,
+      "rating": 4.7
+    },
+    {
+      "product_id": "P003",
+      "product_title": "Dell XPS 13 Plus",
+      "product_image": "https://i.ibb.co.com/Tq077tK/Dell-xps-plus-9320-3-1024x793.png",
+      "category": "Laptops",
+      "price": 1499,
+      "description": "Compact and powerful laptop for professionals.",
+      "specification": [
+        "13.4-inch UHD+ display",
+        "Intel Core i7 13th Gen",
+        "16GB RAM",
+        "512GB SSD",
+        "Intel Iris Xe Graphics"
+      ],
+      "availability": true,
+      "rating": 4.6
+    },
+    {
+      "product_id": "P004",
+      "product_title": "Sony WH-1000XM5",
+      "product_image": "https://i.ibb.co.com/fNYNtzK/5318-55349.jpg",
+      "category": "Headphones",
+      "price": 399,
+      "description": "Industry-leading noise-canceling headphones.",
+      "specification": [
+        "30-hour battery life",
+        "Touch controls",
+        "Hi-Res Audio",
+        "Adaptive Sound Control",
+        "Wireless Bluetooth 5.2"
+      ],
+      "availability": true,
+      "rating": 4.9
+    },
+    {
+      "product_id": "P005",
+      "product_title": "Apple iPad Pro 12.9-inch",
+      "product_image": "https://i.ibb.co.com/R9vX3CV/Apple-i-Pad-Pro-12-9-Inch-Wi-Fi-128-GB-MY2-H2-Space-Grey.jpg",
+      "category": "Tablets",
+      "price": 1099,
+      "description": "High-performance tablet with M1 chip.",
+      "specification": [
+        "12.9-inch Liquid Retina XDR display",
+        "M1 chip",
+        "128GB to 2TB storage options",
+        "5G capable",
+        "Apple Pencil support"
+      ],
+      "availability": true,
+      "rating": 4.8
+    },
+    {
+      "product_id": "P006",
+      "product_title": "Apple Watch Series 9",
+      "product_image": "https://i.ibb.co.com/yq8QSL5/Apple-Watch-Series-9-3-6716.jpg",
+      "category": "Wearables",
+      "price": 399,
+      "description": "Stay connected, active, and healthy.",
+      "specification": [
+        "Always-on Retina display",
+        "Blood Oxygen and ECG apps",
+        "Fitness tracking",
+        "Water resistant up to 50m",
+        "WatchOS 9"
+      ],
+      "availability": true,
+      "rating": 4.7
+    },
+    {
+      "product_id": "P007",
+      "product_title": "Nikon Z6 II Mirrorless Camera",
+      "product_image": "https://i.ibb.co.com/8jHN2J4/Niko-IIMirrorless-Camera.png",
+      "category": "Cameras",
+      "price": 1999,
+      "description": "High-quality mirrorless camera for professionals.",
+      "specification": [
+        "24.5MP full-frame sensor",
+        "4K UHD video recording",
+        "In-body stabilization",
+        "Dual card slots",
+        "Weather-sealed body"
+      ],
+      "availability": true,
+      "rating": 4.8
+    },
+    {
+      "product_id": "P008",
+      "product_title": "Sony PlayStation 5",
+      "product_image": "https://i.ibb.co.com/cXGgRf3/ps5.jpg",
+      "category": "Gaming Consoles",
+      "price": 499,
+      "description": "Next-generation gaming experience.",
+      "specification": [
+        "8K graphics support",
+        "Ultra-fast SSD",
+        "DualSense wireless controller",
+        "4K Blu-ray player",
+        "Backward compatibility"
+      ],
+      "availability": true,
+      "rating": 4.9
+    },
+    {
+      "product_id": "P009",
+      "product_title": "LG OLED C1 Series 55-inch TV",
+      "product_image": "https://i.ibb.co.com/JyLKFQt/lgtv9.jpg",
+      "category": "Televisions",
+      "price": 1299,
+      "description": "Stunning picture quality with OLED technology.",
+      "specification": [
+        "4K UHD resolution",
+        "120Hz refresh rate",
+        "Dolby Vision and Atmos",
+        "AI ThinQ Smart features",
+        "HDMI 2.1 support"
+      ],
+      "availability": true,
+      "rating": 4.8
+    },
+    {
+      "product_id": "P010",
+      "product_title": "Bose SoundLink Revolve+",
+      "product_image": "https://i.ibb.co.com/LZZmLmv/Bose-Sound-Link-Revolve-II-Speaker-Set-8489-29.jpg",
+      "category": "Speakers",
+      "price": 299,
+      "description": "Portable 360° speaker for immersive sound.",
+      "specification": [
+        "17-hour battery life",
+        "Water-resistant",
+        "Voice assistant integration",
+        "Bluetooth 4.2",
+        "360° sound"
+      ],
+      "availability": true,
+      "rating": 4.7
+    },
+    {
+      "product_id": "P011",
+      "product_title": "Apple MacBook Pro 14-inch",
+      "product_image": "https://i.ibb.co.com/C6Nk1TV/macbook.jpg",
+      "category": "Laptops",
+      "price": 1999,
+      "description": "Powerful laptop with M1 Pro chip.",
+      "specification": [
+        "14-inch Liquid Retina XDR display",
+        "M1 Pro chip",
+        "16GB RAM",
+        "1TB SSD",
+        "Up to 17-hour battery life"
+      ],
+      "availability": true,
+      "rating": 4.9
+    },
+    {
+      "product_id": "P012",
+      "product_title": "Google Pixel 7 Pro",
+      "product_image": "https://i.ibb.co.com/qB5h0dM/Pixel-7-Pro-Hazel-6784.jpg",
+      "category": "Smartphones",
+      "price": 899,
+      "description": "Experience the best of Google with the Pixel 7 Pro.",
+      "specification": [
+        "6.7-inch LTPO OLED display",
+        "Google Tensor G2 chip",
+        "50MP triple-camera system",
+        "5G support",
+        "Wireless charging"
+      ],
+      "availability": true,
+      "rating": 4.6
+    },
+    {
+      "product_id": "P013",
+      "product_title": "Samsung Galaxy Tab S8 Ultra",
+      "product_image": "https://i.ibb.co.com/XsBPsNv/Samsung-Galaxy-Tab-S8-Ultra-1.jpg",
+      "category": "Tablets",
+      "price": 1099,
+      "description": "Large-screen tablet for productivity and creativity.",
+      "specification": [
+        "14.6-inch Super AMOLED display",
+        "Snapdragon 8 Gen 1",
+        "12GB RAM",
+        "1TB storage",
+        "S Pen included"
+      ],
+      "availability": true,
+      "rating": 4.7
+    },
+    {
+      "product_id": "P014",
+      "product_title": "Sony Bravia XR A80J 65-inch",
+      "product_image": "https://i.ibb.co.com/tpgZWm3/Sony-65-inch.jpg",
+      "category": "Televisions",
+      "price": 1799,
+      "description": "Premium OLED TV with cognitive intelligence.",
+      "specification": [
+        "4K HDR resolution",
+        "XR Triluminos Pro",
+        "Google TV",
+        "HDMI 2.1",
+        "Acoustic Surface Audio"
+      ],
+      "availability": true,
+      "rating": 4.8
+    },
+    {
+      "product_id": "P015",
+      "product_title": "Microsoft Surface Pro 9",
+      "product_image": "https://i.ibb.co.com/W5bjLfM/Microsoft-Surface-Pro-9-featured-image-packshot-review.jpg",
+      "category": "Tablets",
+      "price": 999,
+      "description": "Versatile 2-in-1 tablet with Windows 11.",
+      "specification": [
+        "13-inch PixelSense display",
+        "Intel Core i5 or i7",
+        "Up to 16GB RAM",
+        "512GB SSD",
+        "Surface Pen support"
+      ],
+      "availability": true,
+      "rating": 4.5
+    }
+  ]
+  

@@ -1,4 +1,7 @@
+import { useNavigate } from "react-router-dom";
+
 const Banner = () => {
+    const navigate = useNavigate()
   return (
     <div>
       <div className="hero bg-banner min-h-[630px] rounded-b-3xl ">
@@ -12,7 +15,7 @@ const Banner = () => {
               next level. From smart devices to the coolest accessories, we have
               it all!
             </p>
-            <button className="btn text-[#9538E2] bg-white rounded-3xl">Shop Now</button>
+            <button onClick={()=>navigate('/dashboard')} className="btn text-[#9538E2] bg-white rounded-3xl">Shop Now</button>
           </div>
         </div>
       </div>

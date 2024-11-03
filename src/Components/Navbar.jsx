@@ -1,9 +1,9 @@
-import { NavLink, useLocation } from "react-router-dom";
+import { Link, NavLink, useLocation } from "react-router-dom";
 import { CiShoppingCart,CiHeart } from "react-icons/ci";
 
 const Navbar = () => {
   const {pathname}= useLocation()
-  console.log(location)
+
   const navlink = (
     <>
       <li>
@@ -44,7 +44,7 @@ const Navbar = () => {
             {navlink}
           </ul>
         </div>
-        <a className="btn btn-ghost text-2xl">Gadget Heaven </a>
+        <Link to='/' className="btn btn-ghost text-2xl">Gadget Heaven </Link>
       </div>
       <div className="navbar-center hidden lg:flex">
         <ul className={`menu menu-horizontal  px-1`}>{navlink}</ul>
