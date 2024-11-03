@@ -1,0 +1,11 @@
+[
+    { "product_id": "P001", "category": "Smartphones" },
+    { "product_id": "P003", "category": "Laptops" },
+    { "product_id": "P004", "category": "Headphones" },
+    { "product_id": "P005", "category": "Tablets" },
+    { "product_id": "P006", "category": "Wearables" },
+    { "product_id": "P007", "category": "Cameras" },
+    { "product_id": "P008", "category": "Gaming Consoles" },
+    { "product_id": "P009", "category": "Televisions" },
+    { "product_id": "P010", "category": "Speakers" }
+  ]

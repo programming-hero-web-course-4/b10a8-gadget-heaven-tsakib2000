@@ -253,6 +253,23 @@
       ],
       "availability": true,
       "rating": 4.5
+    },
+    {
+      "product_id": "P016",
+      "product_title": "Canon EOS R5 Mirrorless Camera",
+      "product_image": "https://i.ibb.co.com/M1kvcqS/Canon-EOS-R5-lead-03b.jpg",
+      "category": "Cameras",
+      "price": 3899,
+      "description": "Professional-grade mirrorless camera with 8K video capability.",
+      "specification": [
+        "45MP full-frame sensor",
+        "8K video recording",
+        "In-body stabilization",
+        "Dual Pixel CMOS AF II",
+        "Weather-sealed body"
+      ],
+      "availability": true,
+      "rating": 4.9
     }
   ]
   
