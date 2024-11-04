@@ -40,6 +40,7 @@ const MainLayout = () => {
    }
   };
 
+
   return (
     <>
       <div className="w-11/12 mx-auto bg-base-200 rounded-3xl">

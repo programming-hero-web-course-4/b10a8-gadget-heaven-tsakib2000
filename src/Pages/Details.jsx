@@ -1,8 +1,10 @@
 import { useLoaderData, useParams } from "react-router-dom";
 import DetailsCard from "../Components/DetailsCard";
 import { useEffect, useState } from "react";
+import useTitle from "../Components/useTitle";
 
 const Details = () => {
+  useTitle('Details')
   const data = useLoaderData();
   const {id}=useParams()
   const[gadget,setGadget]=useState({})

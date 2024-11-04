@@ -2,8 +2,10 @@ import { Outlet, useLoaderData } from "react-router-dom";
 import Banner from "../Components/Banner";
 import Categories from "../Components/Categories";
 import Hero from "../Components/Hero";
+import useTitle from "../Components/useTitle";
 
 const Home = () => {
+  useTitle('Home')
     const data=useLoaderData()
   return (
     <>

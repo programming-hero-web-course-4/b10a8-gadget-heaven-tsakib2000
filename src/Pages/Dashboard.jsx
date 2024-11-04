@@ -1,8 +1,10 @@
 import { useState } from "react";
 import Cart from "../Components/Cart";
 import Wishlist from "../Components/Wishlist";
+import useTitle from "../Components/useTitle";
 
 const Dashboard = () => {
+    useTitle('Dashboard')
     const [toggle,setToggle]=useState(true)
     const handleToggle=name=>{
         if(name == 'cart'){
