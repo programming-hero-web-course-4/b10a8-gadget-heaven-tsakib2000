@@ -1,16 +1,14 @@
 import { Link, NavLink, useLocation } from "react-router-dom";
 import { CiShoppingCart,CiHeart } from "react-icons/ci";
-import { useEffect, useState } from "react";
-import { getCart } from "../Utilities/script";
+import { useContext} from "react";
+
+import { AddCartArrayContext, AddWishArrayContext } from "../ContextApi/Context";
 
 
 const Navbar = () => {
   const {pathname}= useLocation()
-  const [cart,setCart] =useState([])
-useEffect(()=>{
-  const cartList = getCart()
-  setCart(cartList)
-},[])
+const cartList = useContext(AddCartArrayContext)
+const wishList = useContext(AddWishArrayContext)
 
   const navlink = (
     <>
@@ -59,11 +57,11 @@ useEffect(()=>{
       </div>
       <div className="navbar-end gap-4">
         <div className="indicator"> 
-        <span className="indicator-item badge "> {cart.length}</span>
+        <span className="indicator-item badge "> {cartList.length}</span>
         <div className="btn text-lg rounded-full bg-white"><CiShoppingCart /></div>
         </div>
        <div className="indicator">
-       <span className="indicator-item badge "> {cart.length}</span>
+       <span className="indicator-item badge "> {wishList.length}</span>
        <div className="btn text-lg rounded-full bg-white"> <CiHeart /></div>
        </div>
       </div>

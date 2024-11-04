@@ -1,10 +1,14 @@
 /* eslint-disable react/prop-types */
+import { useContext } from "react";
 import { AiOutlineShoppingCart } from "react-icons/ai"
 import { CiHeart } from "react-icons/ci";
-import { addCart } from "../Utilities/script";
-import toast from "react-hot-toast";
+import { AddWishContext, GadgetContext } from "../ContextApi/Context";
+
+
 
 const DetailsCard = ({ gadget }) => {
+ const addFunction = useContext(GadgetContext)
+ const addToWish = useContext(AddWishContext)
   const {
     product_title,
     product_image,
@@ -14,10 +18,7 @@ const DetailsCard = ({ gadget }) => {
     availability,
     rating,
   } = gadget;
-const handleAddToCart=gadget=>{
-  availability?addCart(gadget):toast.error('Product is Out of stock!');
-  
-}
+
   return (
     <div className="hero w-9/12 mx-auto bg-white rounded-2xl min-h-max">
       <div className="hero-content flex-col justify-evenly lg:flex-row">
@@ -84,8 +85,8 @@ const handleAddToCart=gadget=>{
            </div>
           </div>
           <div className="flex items-center gap-4">
-            <button onClick={()=>handleAddToCart(gadget)} className="btn bg-banner rounded-3xl text-white font-bold text-lg">Add To Cart <AiOutlineShoppingCart /></button>
-            <button  className="btn rounded-full p-4 border border-gray-400 bg-white text-lg"><CiHeart /></button>
+            <button onClick={()=>addFunction(gadget)} className="btn bg-banner rounded-3xl text-white font-bold text-lg">Add To Cart <AiOutlineShoppingCart /></button>
+            <button onClick={()=>addToWish(gadget)} className="btn rounded-full p-4 border border-gray-400 bg-white text-lg"><CiHeart /></button>
           </div>
         </div>
       </div>
