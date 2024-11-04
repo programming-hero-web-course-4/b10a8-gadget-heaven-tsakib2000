@@ -45,7 +45,7 @@ const wishList = useContext(AddWishArrayContext)
           </div>
           <ul
             tabIndex={0}
-            className={`bg-[#632299] menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow`}
+            className={`bg-violet-400 menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow`}
           >
             {navlink}
           </ul>
@@ -57,11 +57,11 @@ const wishList = useContext(AddWishArrayContext)
       </div>
       <div className="navbar-end gap-4">
         <div className="indicator"> 
-        <span className="indicator-item badge "> {cartList.length}</span>
+        <span className="indicator-item badge text-xs"> {cartList.length}</span>
         <div className="btn text-lg rounded-full bg-white"><CiShoppingCart /></div>
         </div>
        <div className="indicator">
-       <span className="indicator-item badge "> {wishList.length}</span>
+       <span className="indicator-item badge text-xs "> {wishList.length}</span>
        <div className="btn text-lg rounded-full bg-white"> <CiHeart /></div>
        </div>
       </div>

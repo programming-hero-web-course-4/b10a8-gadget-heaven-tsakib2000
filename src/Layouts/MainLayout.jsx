@@ -18,7 +18,7 @@ const MainLayout = () => {
   const handleAddToCart = (gadget) => {
     const isExist= cart.find(item=>item.product_id == gadget.product_id)
   if(isExist ){
-    toast.error('Product already in wish list')
+    toast.error('Product already in Cart')
   }else if(gadget.availability == false){
     toast.error('Product is out of stock. You can add to wish list for now ')
   }
