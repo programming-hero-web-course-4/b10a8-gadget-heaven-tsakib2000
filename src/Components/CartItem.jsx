@@ -1,8 +1,9 @@
 /* eslint-disable react/prop-types */
 import { TiDeleteOutline } from "react-icons/ti";
 const CartItem = ({ gadget }) => {
-  console.log(gadget);
+
   const { product_image, product_title, price, description } = gadget;
+ 
   return (
     <div className="rounded-xl bg-white">
       <div className="flex justify-between items-center m-4 ">
