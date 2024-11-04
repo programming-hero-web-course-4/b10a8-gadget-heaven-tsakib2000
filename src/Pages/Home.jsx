@@ -16,7 +16,7 @@ const Home = () => {
         <div className="text-center my-6">
           <h1 className="text-4xl font-bold text-[#0B0B0B]" >Explore Cutting-Edge Gadgets</h1>
         </div>
-        <div className=" grid grid-cols-4 my-5">
+        <div className=" grid grid-cols-4 my-5 gap-6 p-2 ">
           <Categories categories={data} />
           <Outlet></Outlet>
         </div>

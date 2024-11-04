@@ -1,8 +1,16 @@
 import { Link, NavLink, useLocation } from "react-router-dom";
 import { CiShoppingCart,CiHeart } from "react-icons/ci";
+import { useEffect, useState } from "react";
+import { getCart } from "../Utilities/script";
+
 
 const Navbar = () => {
   const {pathname}= useLocation()
+  const [cart,setCart] =useState([])
+useEffect(()=>{
+  const cartList = getCart()
+  setCart(cartList)
+},[])
 
   const navlink = (
     <>
@@ -18,7 +26,7 @@ const Navbar = () => {
     </>
   );
   return (
-    <div className={`navbar rounded-t-3xl mt-4 text-base font-bold ${(pathname== '/') ?'bg-banner text-white':'bg-base-100 text-gray-500' }`}>
+    <div className={`navbar rounded-t-3xl mt-4 text-base font-bold ${(pathname== '/') ?'bg-banner text-white':(pathname=='/category')? 'bg-banner text-white':'bg-base-100 text-gray-500'  }`}>
       <div className="navbar-start">
         <div className="dropdown ">
           <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
@@ -50,8 +58,14 @@ const Navbar = () => {
         <ul className={`menu menu-horizontal  px-1`}>{navlink}</ul>
       </div>
       <div className="navbar-end gap-4">
+        <div className="indicator"> 
+        <span className="indicator-item badge "> {cart.length}</span>
         <div className="btn text-lg rounded-full bg-white"><CiShoppingCart /></div>
-        <div className="btn text-lg rounded-full bg-white"> <CiHeart /></div>
+        </div>
+       <div className="indicator">
+       <span className="indicator-item badge "> {cart.length}</span>
+       <div className="btn text-lg rounded-full bg-white"> <CiHeart /></div>
+       </div>
       </div>
     </div>
   );

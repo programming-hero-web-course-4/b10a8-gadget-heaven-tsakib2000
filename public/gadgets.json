@@ -287,6 +287,159 @@
         ],
         "availability": true,
         "rating": 4.8
+      },
+      {
+        "product_id": "P018",
+        "product_title": "OnePlus 11 Pro",
+        "product_image": "https://i.ibb.co.com/djxDkd6/oneplus.png",
+        "category": "Smartphones",
+        "price": 999,
+        "description": "High-performance smartphone with a sleek design and cutting-edge features.",
+        "specification": [
+          "6.7-inch Fluid AMOLED display",
+          "Snapdragon 8 Gen 2",
+          "50MP triple-camera system",
+          "5G support",
+          "5000mAh battery with 100W fast charging"
+        ],
+        "availability": true,
+        "rating": 4.6
+      },
+      {
+        "product_id": "P019",
+        "product_title": "Google Pixel 6a",
+        "product_image": "https://i.ibb.co.com/DDVbjn2/Pixel-6a-FR-5.jpg",
+        "category": "Smartphones",
+        "price": 449,
+        "description": "Affordable Google smartphone with AI-powered photography and smart features.",
+        "specification": [
+          "6.1-inch OLED display",
+          "Google Tensor chip",
+          "12MP dual-camera system",
+          "5G connectivity",
+          "All-day battery with Adaptive Battery"
+        ],
+        "availability": false,
+        "rating": 4.5
+      },
+      {
+        "product_id": "P020",
+        "product_title": "Xiaomi Mi 13 Ultra",
+        "product_image": "https://i.ibb.co.com/0sQ8PVN/xiaomi-13-ultra-Olive-Green-Up-3118.jpg",
+        "category": "Smartphones",
+        "price": 1199,
+        "description": "Flagship smartphone with pro-grade photography capabilities.",
+        "specification": [
+          "6.73-inch WQHD+ AMOLED display",
+          "Snapdragon 8 Gen 2",
+          "50MP quad-camera system with Leica lenses",
+          "5G support",
+          "5000mAh battery with 90W fast charging"
+        ],
+        "availability": true,
+        "rating": 4.7
+      },
+      {
+        "product_id": "P021",
+        "product_title": "Bose QuietComfort 45",
+        "product_image": "https://i.ibb.co.com/D7sqN7Z/Brothers-Quiet-Comfort-45-1-800x800.jpg",
+        "category": "Headphones",
+        "price": 329,
+        "description": "Comfortable noise-canceling headphones with long battery life and excellent sound quality.",
+        "specification": [
+          "Up to 24-hour battery life",
+          "Active noise cancellation",
+          "Bluetooth 5.1",
+          "Quick Charge: 15 minutes for 3 hours",
+          "Adjustable EQ via app"
+        ],
+        "availability": true,
+        "rating": 4.8
+      },
+      {
+        "product_id": "P022",
+        "product_title": "JBL Live 660NC",
+        "product_image": "https://i.ibb.co.com/F7gHb8J/JBL-Live-660-NC-Wireless-Over-Ear-Headphones-Black-1781.jpg",
+        "category": "Headphones",
+        "price": 199,
+        "description": "Wireless over-ear headphones with noise-canceling technology and powerful sound.",
+        "specification": [
+          "Up to 40-hour battery life with ANC off",
+          "40mm dynamic drivers",
+          "Bluetooth 5.0",
+          "Ambient Aware & TalkThru features",
+          "Fast charging: 10 minutes for 4 hours"
+        ],
+        "availability": true,
+        "rating": 4.6
+      },
+      {
+        "product_id": "P023",
+        "product_title": "Samsung Galaxy Watch 5",
+        "product_image": "https://i.ibb.co.com/vmXFKSG/Samsung-Galaxy-Watch-5-Gray-40mm.jpg",
+        "category": "Wearables",
+        "price": 279,
+        "description": "Advanced fitness tracking and health monitoring smartwatch with long battery life.",
+        "specification": [
+          "1.4-inch Super AMOLED display",
+          "Heart rate and ECG monitoring",
+          "Sleep tracking",
+          "Water-resistant up to 50m",
+          "Wear OS powered by Samsung"
+        ],
+        "availability": true,
+        "rating": 4.7
+      },
+      {
+        "product_id": "P024",
+        "product_title": "Fitbit Versa 4",
+        "product_image": "https://i.ibb.co.com/pJ68qHq/Versa-4-Waterfall-Blue-1319.jpg",
+        "category": "Wearables",
+        "price": 229,
+        "description": "Versatile health and fitness smartwatch with 6-day battery life and 24/7 heart rate tracking.",
+        "specification": [
+          "1.58-inch AMOLED display",
+          "Built-in GPS",
+          "Stress and sleep monitoring",
+          "Water-resistant up to 50m",
+          "Fast charging"
+        ],
+        "availability": false,
+        "rating": 4.5
+      },
+      {
+        "product_id": "P025",
+        "product_title": "JBL Flip 6",
+        "product_image": "https://i.ibb.co.com/q5fTPcN/jbl-flip-6-red-500x500.jpg",
+        "category": "Speakers",
+        "price": 129,
+        "description": "Portable Bluetooth speaker with bold sound and IP67 waterproof rating.",
+        "specification": [
+          "12-hour battery life",
+          "IP67 waterproof and dustproof",
+          "Bluetooth 5.1",
+          "PartyBoost feature for connecting multiple JBL speakers",
+          "Portable and lightweight design"
+        ],
+        "availability": true,
+        "rating": 4.6
+      },
+      {
+        "product_id": "P026",
+        "product_title": "Sony SRS-XB43",
+        "product_image": "https://i.ibb.co.com/YhTHd2c/71b-AFHcc-Q-L-AC-SL1200.jpg",
+        "category": "Speakers",
+        "price": 249,
+        "description": "Powerful extra bass Bluetooth speaker with live sound mode.",
+        "specification": [
+          "24-hour battery life",
+          "IP67 waterproof, dustproof, and rustproof",
+          "Extra Bass and Live Sound modes",
+          "Party Connect for syncing up to 100 speakers",
+          "LED lighting effects"
+        ],
+        "availability": true,
+        "rating": 4.8
       }
     
   ]
