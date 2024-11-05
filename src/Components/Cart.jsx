@@ -11,7 +11,7 @@ const Cart = () => {
     const purchase =useContext(PurchaseItem)
     const [disable,setDisable]=useState(true)
     const [totalCost,setTotalCost]=useState(0)
-    
+
 useEffect(()=>{
     if(cartList.length <= 0){
         setDisable(true)
@@ -20,16 +20,14 @@ useEffect(()=>{
     }
     const cartPrice=cartList.map(item=> item.price)
     setTotalCost(cartPrice.reduce((p,c)=>{return p+c},0))
-},[cartList, cartList.length])
+
+},[cartList, cartList.length, totalCost])
 const handlePurchase=()=>{
-   
-    document.getElementById('my_modal_5').showModal()
-}
-const handleCloseModal=()=>{
     purchase([])
     setTotalCost(0)
-    navigate('/')
+    document.getElementById('my_modal_5').showModal()
 }
+
     return (
         <div className="my-10 mx-3">
            <div className="flex justify-between items-center">
@@ -55,14 +53,14 @@ const handleCloseModal=()=>{
     <div className="divider border-t-slate-400"></div>
     <div className="text-center text-gray-400">
          <p>Thanks For Purchasing</p>
-         <p>Total:${totalCost}</p>   
+         
     </div>
 </div>
     <div className="modal-action">
       <form method="dialog" className="w-full">
         {/* if there is a button in form, it will close the modal */}
      
-      <button onClick={handleCloseModal} className="btn w-full rounded-3xl font-bold text-black">Close</button>
+      <button onClick={()=>navigate('/')} className="btn w-full rounded-3xl font-bold text-black">Close</button>
       
       </form>
     </div>
