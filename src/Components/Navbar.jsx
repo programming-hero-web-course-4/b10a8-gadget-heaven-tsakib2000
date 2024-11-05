@@ -22,7 +22,7 @@ const wishList = useContext(AddWishArrayContext)
       <NavLink className={({isActive})=>isActive?'underline':' '} to='/dashboard' >Dashboard</NavLink>
       </li>
       <li>
-      <NavLink className={({isActive})=>isActive?'underline':' '} to='/review' >Customer Feedback</NavLink>
+      <NavLink className={({isActive})=>isActive?'underline':' '} to='/reviews' >Customer Feedback</NavLink>
       </li>
     </>
   );

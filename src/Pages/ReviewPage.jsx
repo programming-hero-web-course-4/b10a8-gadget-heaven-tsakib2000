@@ -1,10 +1,20 @@
-import { useLoaderData } from "react-router-dom";
+
 import ReviewCard from "../Components/ReviewCard";
+import { useEffect, useState } from "react";
 
 
 const ReviewPage = () => {
-    const data = useLoaderData()
-    return (<>
+    const [reviewData,setReviewData]=useState([])
+    
+    useEffect(()=>{
+
+        fetch('/review.json')
+        .then(res => res.json())
+        .then(data=>setReviewData(data))
+        
+    },[])
+    return (
+    <>
   <div className="p-8 text-center gap-5 flex flex-col justify-center items-center bg-banner">
         <h1 className="text-white text-4xl font-bold capitalize">Welcome to feedback section</h1>
         <p className="text-white font-thin">
@@ -14,7 +24,7 @@ const ReviewPage = () => {
       </div>
         <div className="grid grid-cols-2">
            {
-            data.map((review,idx)=> <ReviewCard key={idx} review={review}/>)
+            reviewData.map((review,idx)=> <ReviewCard key={idx} review={review}/>)
            }
         </div>
         </>
