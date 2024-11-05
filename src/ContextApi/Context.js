@@ -1,9 +1,18 @@
 import { createContext } from "react";
 
-export const GadgetContext = createContext({})
+const GadgetContext = createContext({});
 
-export const AddWishContext = createContext({})
+const AddWishContext = createContext({});
 
-export const AddWishArrayContext=createContext([])
-export const AddCartArrayContext=createContext([])
-export const SortCartFunc = createContext([])
+const AddWishArrayContext = createContext([]);
+const AddCartArrayContext = createContext([]);
+const SortCartFunc = createContext([]);
+const PurchaseItem =createContext([])
+export {
+  AddWishArrayContext,
+  AddCartArrayContext,
+  SortCartFunc,
+  AddWishContext,
+  GadgetContext,
+  PurchaseItem
+};

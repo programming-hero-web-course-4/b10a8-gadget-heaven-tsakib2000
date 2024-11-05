@@ -7,6 +7,7 @@ import {
   GadgetContext,
   AddWishArrayContext,
   SortCartFunc,
+  PurchaseItem,
 } from "../ContextApi/Context";
 
 import { useState } from "react";
@@ -52,11 +53,13 @@ const MainLayout = () => {
             <AddWishContext.Provider value={handleAddToWish}>
               <AddWishArrayContext.Provider value={wish}>
                 <AddCartArrayContext.Provider value={cart}>
-                  <Navbar />
-                  <div className="min-h-[calc(100vh-288px)]">
-                    <Outlet></Outlet>
-                  </div>
-                  <Footer />
+                  <PurchaseItem.Provider value={setCart}>
+                    <Navbar />
+                    <div className="min-h-[calc(100vh-288px)]">
+                      <Outlet></Outlet>
+                    </div>
+                    <Footer />
+                  </PurchaseItem.Provider>
                 </AddCartArrayContext.Provider>
               </AddWishArrayContext.Provider>
             </AddWishContext.Provider>

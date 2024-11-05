@@ -5,7 +5,7 @@ import SingleCard from "./SingleCard";
 
 const Cards = () => {
     const data = useLoaderData()
-    console.log(data)
+  
     const {categoryID}=useParams()
     const [gadgets,setGadgets]=useState([])
     useEffect(()=>{
