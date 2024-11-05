@@ -7,7 +7,13 @@ import { useLoaderData } from "react-router-dom";
 const Statistic = () => {
     const data =useLoaderData()
     useTitle('Statistic')
-    return (
+    return (<>
+      <div className="p-8 text-center gap-5 flex flex-col justify-center items-center bg-banner">
+        <h1 className="text-white text-4xl font-bold capitalize">Statistics</h1>
+        <p className="text-white font-thin">
+        The chart displays the prices of various tech products. The y-axis represents the price in dollars, and the x-axis shows the product names.</p>
+
+      </div>
         <div className="p-5 flex justify-center items-center">
             <BarChart width={1700} height={700} data={data}>
             <CartesianGrid strokeDasharray="3 3" />
@@ -19,6 +25,7 @@ const Statistic = () => {
   <Bar dataKey="product_title" fill="#9538E2" />
 </BarChart>
         </div>
+        </>
     );
 };
 
