@@ -6,6 +6,7 @@ import Statistic from "../Pages/Statistic";
 import Dashboard from "../Pages/Dashboard";
 import Cards from "../Components/Cards";
 import Details from "../Pages/Details";
+import ReviewPage from "../Pages/ReviewPage";
 
 const router = createBrowserRouter([
     {
@@ -27,14 +28,15 @@ const router = createBrowserRouter([
                 path:'/category/:categoryID',
                 element:<Cards/>,
                 loader:()=>fetch('../gadgets.json')
-              },
+              }
 
             ]
             
         },
         {
           path:'/statistic',
-          element:<Statistic/>
+          element:<Statistic/>,
+          loader:()=>fetch('/gadgets.json')
         },
         {
           path:'/dashboard',
@@ -44,6 +46,11 @@ const router = createBrowserRouter([
           path:'/details/:id',
           element:<Details/>,
           loader:()=>fetch('/gadgets.json')
+        },
+        {
+          path:'/review',
+          element:<ReviewPage/>,
+          loader:()=>fetch('/review.json')
         }
       ]
     },

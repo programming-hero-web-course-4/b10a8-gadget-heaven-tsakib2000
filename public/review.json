@@ -1,0 +1,73 @@
+[
+    {
+      "name": "John Doe",
+      "description": "Fantastic customer service! They were very responsive and helped me with all my questions.",
+      "rating": 5,
+      "date": "2023-10-15",
+      "image": "https://randomuser.me/api/portraits/men/1.jpg"
+    },
+    {
+      "name": "Emily Smith",
+      "description": "Quick response and very friendly staff. I received my product earlier than expected.",
+      "rating": 4,
+      "date": "2023-10-12",
+      "image": "https://randomuser.me/api/portraits/women/2.jpg"
+    },
+    {
+      "name": "Michael Johnson",
+      "description": "Helpful support but a bit slow to respond. Overall, a good experience.",
+      "rating": 3,
+      "date": "2023-09-28",
+      "image": "https://randomuser.me/api/portraits/men/3.jpg"
+    },
+    {
+      "name": "Sophia Lee",
+      "description": "They went above and beyond to resolve my issue. Highly recommend their service!",
+      "rating": 5,
+      "date": "2023-09-20",
+      "image": "https://randomuser.me/api/portraits/women/4.jpg"
+    },
+    {
+      "name": "David Brown",
+      "description": "Average service. The support team was polite but took a while to solve my problem.",
+      "rating": 3,
+      "date": "2023-09-10",
+      "image": "https://randomuser.me/api/portraits/men/5.jpg"
+    },
+    {
+      "name": "Olivia Wilson",
+      "description": "The team was fantastic and kept me updated throughout the process. Very pleased with their service.",
+      "rating": 5,
+      "date": "2023-08-30",
+      "image": "https://randomuser.me/api/portraits/women/6.jpg"
+    },
+    {
+      "name": "James Williams",
+      "description": "Polite and professional, but they took longer than expected to get back to me.",
+      "rating": 3,
+      "date": "2023-08-22",
+      "image": "https://randomuser.me/api/portraits/men/7.jpg"
+    },
+    {
+      "name": "Lily Martinez",
+      "description": "Excellent service! They really know how to treat customers. I was very impressed.",
+      "rating": 5,
+      "date": "2023-08-15",
+      "image": "https://randomuser.me/api/portraits/women/8.jpg"
+    },
+    {
+      "name": "Daniel Anderson",
+      "description": "Good service overall, but I had to wait a bit longer than expected.",
+      "rating": 4,
+      "date": "2023-08-10",
+      "image": "https://randomuser.me/api/portraits/men/9.jpg"
+    },
+    {
+      "name": "Chloe Gonzalez",
+      "description": "Amazing! Fast, friendly, and effective. Couldn’t ask for more.",
+      "rating": 5,
+      "date": "2023-08-01",
+      "image": "https://randomuser.me/api/portraits/women/10.jpg"
+    }
+  ]
+  

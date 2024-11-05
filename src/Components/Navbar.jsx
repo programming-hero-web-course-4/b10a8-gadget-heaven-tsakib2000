@@ -21,10 +21,13 @@ const wishList = useContext(AddWishArrayContext)
       <li>
       <NavLink className={({isActive})=>isActive?'underline':' '} to='/dashboard' >Dashboard</NavLink>
       </li>
+      <li>
+      <NavLink className={({isActive})=>isActive?'underline':' '} to='/review' >Customer Feedback</NavLink>
+      </li>
     </>
   );
   return (
-    <div className={`navbar rounded-t-3xl mt-4 text-base font-bold ${(pathname== '/') ?'bg-banner text-white':(pathname=='/category')? 'bg-banner text-white':'bg-base-100 text-gray-500'  }`}>
+    <div className={`navbar rounded-t-3xl mt-4 text-base font-bold ${(pathname== '/')  ?'bg-banner text-white':'bg-base-100 text-gray-500'  }`}>
       <div className="navbar-start">
         <div className="dropdown ">
           <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
