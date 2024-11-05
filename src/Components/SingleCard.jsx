@@ -18,7 +18,7 @@ const SingleCard = ({ gadget }) => {
   </figure>
   <div className="card-body items-start text-start">
     <h2 className="card-title">{product_title}</h2>
-    <p>Price:{price}</p>
+    <p>Price:${price}</p>
     <div className="card-actions">
       <NavLink to={`/details/${product_id}`} className="btn text-violet-600 bg-white border-violet-600 rounded-3xl" >View Details</NavLink>
     </div>

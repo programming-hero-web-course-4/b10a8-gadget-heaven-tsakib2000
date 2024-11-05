@@ -5,7 +5,7 @@ const Categories = ({ categories }) => {
   return (
     <>
       <div className="col-span-1">
-        <div className="flex flex-col p-6 gap-4 bg-gray-400  rounded-xl">
+        <div className="flex flex-col p-6 gap-4 bg-white  rounded-xl">
             <NavLink to='/' className={ ({isActive})=> isActive?' border-none btn rounded-2xl bg-banner' :'btn rounded-2xl' }>All Product</NavLink>
           {categories.map((category) => (
             <NavLink

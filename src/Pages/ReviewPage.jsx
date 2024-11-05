@@ -1,11 +1,12 @@
 
 import ReviewCard from "../Components/ReviewCard";
 import { useEffect, useState } from "react";
+import useTitle from "../Components/useTitle";
 
 
 const ReviewPage = () => {
     const [reviewData,setReviewData]=useState([])
-    
+    useTitle('Feedback')
     useEffect(()=>{
 
         fetch('/review.json')

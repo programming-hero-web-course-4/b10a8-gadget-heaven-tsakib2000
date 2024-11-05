@@ -2,13 +2,15 @@
 import { useContext } from "react";
 import { AiOutlineShoppingCart } from "react-icons/ai"
 import { CiHeart } from "react-icons/ci";
-import { AddWishContext, GadgetContext } from "../ContextApi/Context";
+import { AddWishContext, Disable, GadgetContext} from "../ContextApi/Context";
 
 
 
 const DetailsCard = ({ gadget }) => {
  const addFunction = useContext(GadgetContext)
  const addToWish = useContext(AddWishContext)
+
+ const disable = useContext(Disable)
   const {
     product_title,
     product_image,
@@ -86,7 +88,7 @@ const DetailsCard = ({ gadget }) => {
           </div>
           <div className="flex items-center gap-4">
             <button onClick={()=>addFunction(gadget)} className="btn bg-banner rounded-3xl text-white font-bold text-lg">Add To Cart <AiOutlineShoppingCart /></button>
-            <button onClick={()=>addToWish(gadget)} className="btn rounded-full p-4 border border-gray-400 bg-white text-lg"><CiHeart /></button>
+            <button disabled={disable} onClick={()=>addToWish(gadget)} className="btn rounded-full p-4 border border-gray-400 bg-white text-lg"><CiHeart /></button>
           </div>
         </div>
       </div>

@@ -3,7 +3,8 @@ import { createContext } from "react";
 const GadgetContext = createContext({});
 
 const AddWishContext = createContext({});
-
+const SetDisable =createContext(false)
+const Disable =createContext(false)
 const AddWishArrayContext = createContext([]);
 const AddCartArrayContext = createContext([]);
 const SortCartFunc = createContext([]);
@@ -14,5 +15,7 @@ export {
   SortCartFunc,
   AddWishContext,
   GadgetContext,
-  PurchaseItem
+  PurchaseItem,
+  SetDisable,
+  Disable
 };
