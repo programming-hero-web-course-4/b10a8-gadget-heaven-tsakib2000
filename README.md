@@ -37,7 +37,9 @@
 ## 5 features of this website 
 - Product Categories: The website offers various tech accessory categories, making it easy for customers to find what they need.
 - Product Display: Products are displayed with images and brief descriptions, allowing customers to quickly browse and select items.
- Filter Functionality: The left sidebar likely allows users to filter products by category, brand, or other criteria.
+- Adding to cart : After clicking 'add to cart' button will add the specific product to the cart and will show toast notification on the top , Wishlist button works same as 'add to cart' button
+- Disallow adding duplicate item to the CART & WISHLIST : User will not be able to add same item twice in the cart & wishlist , if try it show error notification on the top.
+- Customer Feedback :The website features a section for customer feedback, which helps users learn from other users' experiences with the service.The website includes a dedicated customer feedback section that enables users to gain valuable insights from the experiences of others with the service.
 
 # 🚀 Live Demo
 ## Live link: [Gadget Heaven](https://wise-yard.surge.sh/)
