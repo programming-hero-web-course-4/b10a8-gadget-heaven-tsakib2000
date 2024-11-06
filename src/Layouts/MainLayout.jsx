@@ -19,7 +19,7 @@ import toast from "react-hot-toast";
 const MainLayout = () => {
   const [cart, setCart] = useState([]);
   const [wish, setWish] = useState([]);
- 
+
 
   const handleAddToCart = (gadget) => {
     const isExist = cart.find((item) => item.product_id == gadget.product_id);
@@ -35,18 +35,16 @@ const MainLayout = () => {
   };
 
   const handleAddToWish = (gadget) => {
-    const isExist = wish.find((item) => item.product_id == gadget.product_id);
+
     
-    if (isExist) {
-      toast.error("Product already in wish list");
-    
-    } else {
+
       const newWish = [...wish, gadget];
       setWish(newWish);
+      
       toast.success(`${gadget.product_title} added wish list`);
       
 
-    }
+  
   };
   const handleSort = () => {
     const sortedCart = [...cart].sort((a, b) => b.price - a.price);

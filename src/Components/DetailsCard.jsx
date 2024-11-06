@@ -1,5 +1,5 @@
 /* eslint-disable react/prop-types */
-import { useContext } from "react";
+import { useContext, useState } from "react";
 import { AiOutlineShoppingCart } from "react-icons/ai"
 import { CiHeart } from "react-icons/ci";
 import { AddWishContext,  GadgetContext} from "../ContextApi/Context";
@@ -9,7 +9,7 @@ import { AddWishContext,  GadgetContext} from "../ContextApi/Context";
 const DetailsCard = ({ gadget }) => {
  const addFunction = useContext(GadgetContext)
  const addToWish = useContext(AddWishContext)
-
+ const [disable,setDisable]=useState(false)
  
   const {
     product_title,
@@ -20,7 +20,9 @@ const DetailsCard = ({ gadget }) => {
     availability,
     rating,
   } = gadget;
-
+const handleDisable=()=>{
+  setDisable(true)
+}
   return (
     <div className="hero w-9/12 mx-auto bg-white rounded-2xl min-h-max">
       <div className="hero-content flex-col justify-evenly lg:flex-row">
@@ -88,7 +90,7 @@ const DetailsCard = ({ gadget }) => {
           </div>
           <div className="flex items-center gap-4">
             <button onClick={()=>addFunction(gadget)} className="btn bg-banner rounded-3xl text-white font-bold text-lg">Add To Cart <AiOutlineShoppingCart /></button>
-            <button  onClick={()=>addToWish(gadget)} className="btn rounded-full p-4 border border-gray-400 bg-white text-lg"><CiHeart /></button>
+            <button disabled={disable}  onClick={()=>{addToWish(gadget);handleDisable()}} className="btn rounded-full p-4 border border-gray-400 bg-white text-lg"><CiHeart /></button>
           </div>
         </div>
       </div>
