@@ -41,7 +41,7 @@
 - Disallow adding duplicate item to the CART & WISHLIST : User will not be able to add same item twice in the cart & wishlist , if try it show error notification on the top.
 - Customer Feedback :The website features a section for customer feedback, which helps users learn from other users' experiences with the service.The website includes a dedicated customer feedback section that enables users to gain valuable insights from the experiences of others with the service.
 
-# 🚀 Live Demo
+# 🚀 Links
 ## Live link: [Gadget Heaven](https://wise-yard.surge.sh/)
 ## requirement link: [Requirement](https://drive.google.com/file/d/1tWNdPDRGDE7fEYnDPCkSylfgNucBDQc1/view?usp=drive_link)
 
